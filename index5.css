@@ -1,0 +1,25 @@
+.almanac{
+	display: block;
+	position: relative;
+	width: 500px;
+	height: 769px;
+}
+.almanac img{
+	width: 100%;
+}
+.blocs{
+	position: absolute;
+	top: 0;
+	width: 500px; height: 769px;
+}
+.blocs span{
+	display: block;
+	position: relative;
+	float: left;
+	width: 100px; height: 152px;
+	background: #000;
+	opacity: 1;
+}
+.blocs span:hover{
+	opacity: 0;
+}

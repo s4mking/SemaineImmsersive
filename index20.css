@@ -1,0 +1,17 @@
+
+table { border-spacing: 0px; }
+td {padding:15px;}
+
+.lightblue { background: rgb(116,121,150); }
+.darkblue { background: rgb(66,72,108);}
+.green{ background: rgb(131,170,137); }
+.pink{ background: rgb( 223,177,179); }
+.rougebizarre{ background: rgb(175,101,98); }
+.red{ background: rgb(173,100,97);}
+.bordeau { background: rgb(122,75,82); }
+.grey{background: rgb(96,86,90);}
+.jaunedegueu{ background: rgb(224,201,143); }
+.jaunepoussin{ background: rgb(255,250,118); }
+.brown { background: rgb(123,82,61); }
+.lightpink{ background: rgb( 246,223,219); }
+.greenbizarre { background: rgb(192,197,182); }

@@ -1,0 +1,252 @@
+.haut_R
+{
+	width: 90px;
+	height: 50px;
+	border: 80px solid black;
+	border-bottom-width: 40px;
+}
+.gauche_R
+{
+	width: 80px;
+	height: 70px;
+	background-color: black;
+}
+.droite_R
+{
+ 	width  : 90px;
+ 	height : 0;
+ 	border-top  : 70px solid black;
+ 	border-right : 40px solid transparent;
+ 	position : relative;
+ 	transform: rotate(60deg);
+ 	bottom: 71px;
+ 	left: 122px;
+}
+#I
+{
+	margin-left: 300px;
+	width: 80px;
+	height: 245px;
+	background-color: black;
+	position: absolute;
+	top: 7px;
+}
+
+#C
+{
+	width: 150px;
+	height: 245px;
+	position: absolute;
+	margin-left: 500px;
+	background-color: black;
+	top: 7px;
+}
+
+.droite_C
+{
+	background-color: white;
+	width: 85px;
+	height: 85px;
+	margin-left: 70px;
+	margin-top: 80px;
+}
+
+.gauche_K
+{
+	width: 80px;
+	height: 245px;
+	background-color: black;
+	position: absolute;
+	left: 700px;
+	top: 7px;
+}
+
+.bas_K
+{
+ 	width  : 150px;
+ 	height : 0;
+ 	border-top  : 70px solid black;
+ 	border-right : 40px solid transparent;
+ 	transform: rotate(60deg);
+ 	position: absolute;
+ 	top: 150px;
+ 	left: 746px;
+}
+
+.haut_K
+{
+ 	width  : 150px;
+ 	height : 0;
+ 	border-top  : 70px solid black;
+ 	border-left : 40px solid transparent;
+ 	transform: rotate(120deg);
+ 	position: absolute;
+ 	top: 40px;
+ 	left: 747px;
+}
+
+#E
+{
+	width: 245px;
+	height: 245px;
+	position: absolute;
+	background-color: black;
+	top: 300px;
+}
+
+.droite_E
+{
+	background-color: white;
+	width: 115px;
+	height: 85px;
+	margin-left: 130px;
+	margin-top: 80px;
+}
+
+.haut_T
+{
+	width: 200px;
+	height: 80px;
+	position: absolute;
+	background-color: black;
+	left: 300px;
+	top: 300px;
+}
+
+.milieu_T
+{
+	width: 80px;
+	height: 200px;
+	position: absolute;
+	background-color: black;
+	left: 360px;
+	top: 350px;
+}
+
+#M
+{
+	width: 320px;
+	height: 245px;
+	position: absolute;
+	background-color: black;
+	top: 600px;
+}
+
+.gauche_M
+{
+	width: 50px;
+	height: 150px;
+	background-color: white;
+	margin-top: 95px;
+	margin-left: 80px;
+}
+
+.droite_M
+{
+	width: 50px;
+	height: 150px;
+	background-color: white;
+	position: absolute;
+	top: 95px;
+	right: 80px;
+}
+
+#O
+{
+	width: 80px;
+	height: 85px;
+	position: absolute;
+	border: 80px solid black;
+	top: 600px;
+	left: 370px;
+}
+
+.haut_R2
+{
+	width: 90px;
+	height: 50px;
+	border: 80px solid black;
+	border-bottom-width: 40px;
+	position: absolute;
+	top: 600px;
+	left: 660px;
+}
+.gauche_R2
+{
+	width: 80px;
+	height: 90px;
+	background-color: black;
+	position: absolute;
+	top: 755px;
+	left: 660px;
+}
+.droite_R2
+{
+ 	width  : 90px;
+ 	height : 0;
+ 	border-top  : 70px solid black;
+ 	border-right : 40px solid transparent;
+ 	position : absolute;
+ 	transform: rotate(60deg);
+ 	top: 775px;
+	left: 780px;
+}
+
+.haut_T2
+{
+	width: 200px;
+	height: 80px;
+	position: absolute;
+	background-color: black;
+	left: 950px;
+	top: 600px;
+}
+
+.milieu_T2
+{
+	width: 80px;
+	height: 200px;
+	position: absolute;
+	background-color: black;
+	left: 1010px;
+	top: 650px;
+}
+
+.gauche_Y
+{
+	width: 30px;
+	height: 80px;
+	background-color: black;
+	position: absolute;
+	top: 600px;
+	left: 1200px;
+}
+
+.droite_Y
+{
+	width: 30px;
+	height: 80px;
+	background-color: black;
+	position: absolute;
+	top: 600px;
+	left: 1310px;
+}
+
+.bas_Y
+{
+	width: 80px;
+	height: 180px;
+	position: absolute;
+	background-color: black;
+	left: 1230px;
+	top: 680px;
+}
+
+
+
+
+
+
+
+
+

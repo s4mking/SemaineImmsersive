@@ -1,0 +1,41 @@
+.cercle {
+	width: 350px;
+	height: 350px;
+	background: red;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 175px;
+}
+.triangle{
+	width: 0;
+	height: 0;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	border-bottom: 300px solid red;
+}
+.carre{
+  position: relative;
+  /*width: 200px;
+  height: 150px;*/
+  width: 500px;
+  height: 250px;
+  margin: 20px 0;
+  background: red;
+  border-radius: 50% / 10%;
+  color: white;
+  text-align: center;
+  text-indent: .1em;
+}
+.carre:before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
+}
+body div{
+		margin-right:20px;
+}

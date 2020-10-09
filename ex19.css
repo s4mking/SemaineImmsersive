@@ -1,0 +1,30 @@
+div{
+  background-image: url("biff.jpg");
+  height: 400px;
+  width: 330px;
+  background-size: contain;
+  margin-top: 100px;
+  margin-left: 100px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border: 15px solid white;
+   box-shadow: 1px 2px 10px 1px black;
+ }
+
+div:hover{
+  transform: rotate(15deg);
+  border: 15px solid red;
+}
+
+div>h1{
+  margin-top: 260px;
+  margin-left: 25%;
+}
+
+div>span{
+  margin-top: 50px;
+  margin-left: 46%;
+  
+
+}

@@ -1,0 +1,41 @@
+body {background: #fff;margin:50px;}
+
+.battery {
+  position: relative;
+  display: block;
+  margin: 35px 0 0 5px;
+  background: black;
+  width: 50px;
+  height: 28px;
+  float: left;
+  margin-left: 250px;
+  border-radius: 2px;
+}
+
+.battery:before {
+  content: "";
+  display: block;
+  background: transparent;
+  border: 6px solid black;
+  margin: -12px;
+  width: 85px;
+  height: 40px;
+  position: absolute;
+  border-radius: 11px 11px;
+}
+
+.battery:after {
+  content: "";
+  display: block;
+  background: transparent;
+  border: 6px solid black;
+  margin: 0px 80px;
+  width: 6px;
+  height: 16px;
+  position: absolute;
+  border-radius: 5px 5px;
+}
+
+.battery.empty {width: 0;}
+.battery.half {width: 40px;}
+.battery.full {width: 72px;}

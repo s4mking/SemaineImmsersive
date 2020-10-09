@@ -1,0 +1,80 @@
+.rouge
+{
+	width: 1000px;
+	height: 1000px;
+	border: 20px solid transparent;
+	border-top-color: red;
+	border-radius: 50%
+}
+
+.orange
+{
+	width: 960px;
+	height: 960px;
+	border: 20px solid transparent;
+	border-top-color: orange;
+	border-radius: 50%;
+	position: absolute;
+	top: 27px;
+	left: 28px;
+}
+
+.jaune
+{
+	width: 920px;
+	height: 920px;
+	border: 20px solid transparent;
+	border-top-color: yellow;
+	border-radius: 50%;
+	position: absolute;
+	top: 46px;
+	left: 48px;
+}
+
+.vert
+{
+	width: 880px;
+	height: 880px;
+	border: 20px solid transparent;
+	border-top-color: rgb(106, 228, 69);
+	border-radius: 50%;
+	position: absolute;
+	top: 67px;
+	left: 68px;
+}
+
+.cyan
+{
+	width: 840px;
+	height: 840px;
+	border: 20px solid transparent;
+	border-top-color: cyan;
+	border-radius: 50%;
+	position: absolute;
+	top: 86px;
+	left: 88px;
+}
+
+.bleu
+{
+	width: 800px;
+	height: 800px;
+	border: 20px solid transparent;
+	border-top-color: blue;
+	border-radius: 50%;
+	position: absolute;
+	top: 106px;
+	left: 108px;
+}
+
+.rose
+{
+	width: 760px;
+	height: 760px;
+	border: 20px solid transparent;
+	border-top-color: rgb(237, 120, 248);
+	border-radius: 50%;
+	position: absolute;
+	top: 126px;
+	left: 128px;
+}

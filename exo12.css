@@ -1,0 +1,29 @@
+body{
+  position:relative;
+}
+.carre {
+    height: 350px;
+    width: 250px;
+    background: #FFDEAD;    
+    margin-top:250px;
+}
+.carre:before{
+  content:"";
+width: 0;
+    height: 0;
+    border-left: 130px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 140px solid red;
+    position: absolute;
+      top:-40%;
+}
+.carre:after{
+  content: "";  
+  position:absolute;
+  top:66%;
+  left:5%  ;
+ height: 120px;
+    width: 80px;
+    background: brown;
+}
+

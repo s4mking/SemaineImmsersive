@@ -1,0 +1,21 @@
+div{
+	position: relative;	
+}
+.image{
+	background-size: auto;
+	margin:auto;
+	width: 900px;
+	height: 602px;
+	background-image: url(Ex17.jpg);
+	margin-top: 100px;
+	text-align:center;
+	display:block;
+	text-orientation:sideways-right;
+}
+.image:before{
+	content: "Blink and you're dead.";
+	position: absolute;
+	top:-4%;
+	font-weight: bold;
+	margin-left: -80px;
+}

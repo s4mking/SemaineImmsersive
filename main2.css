@@ -1,0 +1,184 @@
+.hoverboard{
+	display: block;
+	margin: 50px auto;
+	position: relative;
+	
+	width: 200px;
+	height: 500px;
+
+	border: 7px solid rgb(230, 83, 122);
+	border-top-left-radius: 100px;
+	border-top-right-radius: 100px;
+	background: rgb(180, 68, 102);
+
+	overflow: hidden;
+}
+
+
+/* BANDES JAUNES */
+.bande-jaune-1{
+	position: absolute;
+	top: -20px;
+	left: -60px;
+	width: 200px;
+	height: 80px;
+
+	border-bottom: 7px solid #fff;
+
+	transform: rotate(-45deg);
+	background: rgb(245, 212, 87);
+}
+
+.bande-jaune-2{
+	position: absolute;
+	bottom: -50px;
+	right: -80px;
+	width: 200px;
+	height: 80px;
+
+	border-top: 7px solid #fff;
+
+	transform: rotate(-45deg);
+	background: rgb(245, 212, 87);
+}
+
+
+/* BANDES VERTES */
+.bande-vert-1{ 
+	position: absolute;
+	left: -100px;
+	height: 15px;
+	width: 500px;
+	background: rgb(162,189,86);
+	transform: rotate(-70deg);
+ }
+ .bande-vert-2{ 
+	position: absolute;
+	top: 390px;
+	height: 15px;
+	width: 500px;
+	background: rgb(162,189,86);
+	transform: rotate(40deg);
+ }
+ .bande-vert-3{ 
+	position: absolute;
+	top: 400px;
+	left: -100px;
+	height: 15px;
+	width: 500px;
+	background: rgb(162,189,86);
+	transform: rotate(-45deg);
+ }
+
+
+
+/* DOUBLE BANDES ROSES */
+.double-rose-1{
+	position: absolute;
+	left: -215px;
+	top: 150px;
+	width: 500px;
+	height: 60px;
+
+	transform: rotate(20deg);
+
+	border: 7px solid #fff;
+	z-index: 80;
+}
+.double-rose-1 > .bande-rose-1{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 25px;
+	background: rgb(230, 80, 122);
+}
+.double-rose-1 > .bande-rose-2{
+	display: block;
+	position: relative;
+	margin-top: 10px;
+	width: 100%;
+	height: 25px;
+	background: rgb(230, 80, 122);
+}
+
+.double-rose-2{
+	position: absolute;
+	left: -215px;
+	top: 300px;
+	width: 500px;
+	height: 60px;
+
+	transform: rotate(20deg);
+
+	border: 7px solid #fff;
+	z-index: 80;
+}
+.double-rose-2 > .bande-rose-1{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 25px;
+	background: rgb(230, 80, 122);
+}
+.double-rose-2 > .bande-rose-2{
+	display: block;
+	position: relative;
+	margin-top: 10px;
+	width: 100%;
+	height: 25px;
+	background: rgb(230, 80, 122);
+}
+
+
+/* DOUBLES BANDES JAUNES */
+.double-yellow{
+	position: absolute;
+	left: -160px;
+	top: 230px;
+	width: 500px;
+	height: 60px;
+
+	transform: rotate(-10deg);
+
+	font-size: 20px;
+	color: rgb(203, 75, 57);
+	text-align: center;
+
+	border: 7px solid #fff;
+	z-index: 99;
+}
+.double-yellow > .bande-yellow-1{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	background: rgb(245, 212, 87);
+}
+.double-yellow > .bande-yellow-2{
+	display: block;
+	position: relative;
+	margin-top: 10px;
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	background: rgb(245, 212, 87);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
